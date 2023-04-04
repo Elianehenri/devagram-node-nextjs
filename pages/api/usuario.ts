@@ -12,6 +12,7 @@ const handler = nc()
     .use(updload.single('file'))
     .put(async(req : any, res : NextApiResponse<RespostaPadraoMsg>) => {
         try{
+            //pegar usuario no banco de dados
             const {userId} = req?.query;
             const usuario = await UsuarioModel.findById(userId);
             

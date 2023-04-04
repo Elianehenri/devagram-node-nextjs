@@ -4,7 +4,7 @@ import {validarTokenJWT} from '../../middlewares/validarTokenJWT';
 import {conectarMongoDB} from '../../middlewares/conectarMongoDB';
 import { UsuarioModel } from '../../models/usuarioModel';
 import { PublicacaoModel } from '../../models/publicacaoModel';
-import { SeguidorModel } from '../../models/SeguidorModel';
+import { SeguidorModel } from '../../models/seguidorModel';
 
 const feedEndpoint = async (req : NextApiRequest, res : NextApiResponse<RespostaPadraoMsg | any>) => {
     try{
