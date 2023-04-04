@@ -1,7 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { conectarMongoDB } from '../../middlewares/conectarMongoDB';
 import { RespostaPadraoMsg } from '../../types/RespostaPadraoMsg';
-import { LoginResposta} from '../../types/loginResposta';
+import { LoginResposta} from '../../types/LoginResposta';
 import md5 from 'md5';
 import { UsuarioModel } from '../../models/usuarioModel';
 import jwt from 'jsonwebtoken';
