@@ -4,6 +4,8 @@ import { RespostaPadraoMsg } from '../../types/RespostaPadraoMsg';
 import {UsuarioModel} from '../../models/usuarioModel';
 import { conectarMongoDB } from '../../middlewares/conectarMongoDB';
 import md5 from 'md5';
+import {updload, uploadImagemCosmic} from '../../services/uploadImagemCosmic';
+import nc from 'next-connect';
 
 
 const endpointCadastro = async(req: NextApiRequest,
