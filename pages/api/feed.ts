@@ -5,7 +5,7 @@ import {conectarMongoDB} from '../../middlewares/conectarMongoDB';
 import { UsuarioModel } from '../../models/usuarioModel';
 import { PublicacaoModel } from '../../models/publicacaoModel';
 import { SeguidorModel } from '../../models/seguidorModel';
-import { politicaCORS } from '@/middlewares/politicaCORS';
+import { politicaCORS } from  '../../middlewares/politicaCORS';
 
 const feedEndpoint = async (req : NextApiRequest, res : NextApiResponse<RespostaPadraoMsg | any>) => {
     try{

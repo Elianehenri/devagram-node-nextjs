@@ -5,7 +5,7 @@ import {validarTokenJWT} from '../../middlewares/validarTokenJWT';
 import { UsuarioModel } from '../../models/usuarioModel';
 import nc from 'next-connect';
 import {updload, uploadImagemCosmic} from '../../services/uploadImagemCosmic';
-import { politicaCORS } from '@/middlewares/politicaCORS';
+import { politicaCORS } from  '../../middlewares/politicaCORS';
 
 
 

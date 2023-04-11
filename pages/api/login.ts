@@ -5,8 +5,7 @@ import { LoginResposta} from '../../types/LoginResposta';
 import md5 from 'md5';
 import { UsuarioModel } from '../../models/usuarioModel';
 import jwt from 'jsonwebtoken';
-import { politicaCORS } from '@/middlewares/politicaCORS';
-
+import { politicaCORS } from  '../../middlewares/politicaCORS';
 
 const endpointLogin = async (req: NextApiRequest, res: NextApiResponse<RespostaPadraoMsg | LoginResposta>
 ) => {

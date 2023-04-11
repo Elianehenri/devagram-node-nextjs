@@ -6,7 +6,7 @@ import { conectarMongoDB } from '../../middlewares/conectarMongoDB';
 import md5 from 'md5';
 import {updload, uploadImagemCosmic} from '../../services/uploadImagemCosmic';
 import nc from 'next-connect';
-import { politicaCORS } from '@/middlewares/politicaCORS';
+import { politicaCORS } from  '../../middlewares/politicaCORS';
 
 
 const handler = nc()

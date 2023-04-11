@@ -4,7 +4,7 @@ import { validarTokenJWT } from '../../middlewares/validarTokenJWT';
 import { PublicacaoModel } from '../../models/publicacaoModel';
 import { UsuarioModel } from '../../models/usuarioModel';
 import type {RespostaPadraoMsg} from '../../types/RespostaPadraoMsg';
-import { politicaCORS } from '@/middlewares/politicaCORS';
+import { politicaCORS } from  '../../middlewares/politicaCORS';
 
 const comentarioEndpoint = async (req : NextApiRequest, res : NextApiResponse<RespostaPadraoMsg>) => {
     try{
