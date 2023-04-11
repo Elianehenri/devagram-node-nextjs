@@ -6,7 +6,7 @@ import {conectarMongoDB} from '../../middlewares/conectarMongoDB';
 import {validarTokenJWT} from '../../middlewares/validarTokenJWT';
 import {PublicacaoModel} from '../../models/publicacaoModel';
 import {UsuarioModel} from '../../models/usuarioModel';
-import { politicaCORS } from '@/middlewares/politicaCORS';
+import { politicaCORS } from '../../middlewares/politicaCORS';
 
 const handler = nc()
     .use(updload.single('file'))
